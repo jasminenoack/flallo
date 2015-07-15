@@ -7,6 +7,6 @@ var PageHeader = React.createClass({displayName: "PageHeader",
 });
 
 React.render(
-    React.createElement(PageHeader, null),
+    React.createElement("h2", null, "Welcome to Flallo"),
     document.getElementById('content')
 );
